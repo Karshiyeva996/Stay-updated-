@@ -59,23 +59,27 @@ ul {
 }
 
 .site-hero__text {
-   
+
     color: var(--Dark-Navy, #242742);
     font-feature-settings: 'clig' off, 'liga' off;
-    
+
     /* Body */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
     padding-bottom: 24px;
     margin-left: 64px;
     margin-right: 64px;
-} 
-.site-hero__ptica{
+}
+
+.site-hero__ptica {
+    margin-left: 64px;
     row-gap: 10px;
 }
+
 .site-hero__li {
     display: flex;
     column-gap: 5px;
@@ -83,25 +87,29 @@ ul {
 
 .site-hero__p1 {
     color: var(--Dark-Navy, #242742);
-font-feature-settings: 'clig' off, 'liga' off;
+    font-feature-settings: 'clig' off, 'liga' off;
 
-/* Body */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 24px */
-} 
-.hero__h1{
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.hero__h1 {
     color: var(--Dark-Navy, #242742);
-font-feature-settings: 'clig' off, 'liga' off;
-/* Body Small */
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%; /* 18px */
-margin-top: 40px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body Small */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 18px */
+    margin-top: 40px;
+    margin-left: 64px;
 
 }
 
@@ -117,4 +125,37 @@ margin-top: 40px;
     margin-bottom: 24px;
     margin-left: 24px;
     margin-right: 54px;
+}
+.hero__input{
+    border-radius: 8px;
+border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 24px;
+padding-right: 198px;
+margin-left: 64px;
+margin-bottom: 24px;
+
+}
+
+.hero__h2 {
+    border-radius: 8px;
+    background: var(--Dark-Navy, #242742);
+    padding-top: 18px;
+    padding-bottom: 14px;
+    padding-left: 72px;
+    padding-right: 71px;
+
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body (Bold) */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 64px;
+    /* 24px */
 }

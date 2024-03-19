@@ -1,0 +1,120 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-header {
+    display: flex;
+
+    width: 1440px;
+
+    height: 1080px;
+    padding-top: 219px;
+    padding-bottom: 220px;
+    padding-left: 256px;
+    padding-right: 256px;
+
+    justify-content: center;
+    align-items: center;
+    background: var(--Pale-Navy, #36384D);
+
+}
+
+.container {
+    width: 928px;
+    height: 641px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    background: #FFF;
+
+    box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+
+
+}
+
+.site-hero__title {
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 97px;
+    margin-bottom: 24px;
+    margin-left: 64px;
+    margin-right: 30px;
+}
+
+.site-hero__text {
+   
+    color: var(--Dark-Navy, #242742);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding-bottom: 24px;
+    margin-left: 64px;
+    margin-right: 64px;
+} 
+.site-hero__ptica{
+    row-gap: 10px;
+}
+.site-hero__li {
+    display: flex;
+    column-gap: 5px;
+}
+
+.site-hero__p1 {
+    color: var(--Dark-Navy, #242742);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+} 
+.hero__h1{
+    color: var(--Dark-Navy, #242742);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Body Small */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+margin-top: 40px;
+
+}
+
+.site-hero__img {
+    width: 400px;
+    height: 593px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 0px solid #19182B;
+
+    background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 54px;
+}

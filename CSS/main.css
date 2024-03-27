@@ -16,15 +16,13 @@ ul {
 
 .site-header {
     display: flex;
-
-    width: 1440px;
-
-    height: 1080px;
+    max-width: 1440px;
+    width: 100%;
+    height: 100vh;
     padding-top: 219px;
     padding-bottom: 220px;
     padding-left: 256px;
     padding-right: 256px;
-
     justify-content: center;
     align-items: center;
     background: var(--Pale-Navy, #36384D);
@@ -40,6 +38,7 @@ ul {
 
     box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
     display: flex;
+    
 
 
 }
@@ -126,16 +125,22 @@ ul {
     margin-left: 24px;
     margin-right: 54px;
 }
-.hero__input{
-    border-radius: 8px;
-border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 24px;
-padding-right: 198px;
-margin-left: 64px;
-margin-bottom: 24px;
 
+.hero__input {
+    border-radius: 8px;
+    border: 1px solid var(--grey-25, rgba(25, 24, 43, 0.25));
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 198px;
+    margin-left: 64px;
+    margin-bottom: 24px;
+
+}
+
+.hero__h2:hover {
+    background-color: #FF527B;
+    cursor: pointer;
 }
 
 .hero__h2 {
